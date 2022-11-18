@@ -17,22 +17,21 @@
 
   <body>
     <h2>Enter your personal details</h2>
-    <h3>Fields with * are required!</h3>
     <form>
-      <label for="first_name">*First name:</label>
-      <input type="text" name="first_name" id="first_name" required maxlength="20">
+      <label for="first_name">First name:</label>
+      <input type="text" name="first_name" id="first_name">
       
-      <label for="last_name">*Last name:</label>
-      <input type="text" name="last_name" id="last_name" required maxlength="20">
+      <label for="last_name">Last name:</label>
+      <input type="text" name="last_name" id="last_name">
       
-      <label for="email">*Email:</label>
-      <input type="email" name="email" id="email" required placeholder="email@adress.com">
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" placeholder="email@adress.com">
       
-      <label for="password">*Password:</label>
-      <input type="password" name="password" id="password" minlength="8" maxlength="50" required >
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password">
       
       <label for="phone_number">Telephone number:</label>
-      <input type="number" name="phone_number" id="phone_number" max="16">
+      <input type="number" name="phone_number" id="phone_number">
       
       <label for="birthday">Date of birth:</label>
       <input type="date" name="birthday" id="birthday">
@@ -52,16 +51,16 @@
 
       <hr>
       <label for="card_number">Credit card number:</label>
-      <input type="number" name="card_number" id="card_number" max="16" min="16" placeholder="1234567891011121">
+      <input type="number" name="card_number" id="card_number" placeholder="1234567891011121">
 
       <label for="cvc">CVC:</label>
-      <input type="number" name="cvc" id="cvc" min="3" max="3" placeholder="123">
+      <input type="number" name="cvc" id="cvc" min="3" placeholder="123">
       
       <label for="expiration_date">Expiration date:</label>
       <input type="date" name="expiration_date" id="expiration_date">
 
       <label for="billing_address">Billing Address:</label>
-      <input type="text" name="billing_address" id="billing_address" maxlength="100">
+      <input type="text" name="billing_address" id="billing_address">
       <br>
       <button>Submit</button>
     </form>
